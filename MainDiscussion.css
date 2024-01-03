@@ -1,0 +1,76 @@
+.main-discussion {
+    padding: 20px;
+}
+
+.main-discussion h1{
+    color: #26A69A;
+}
+
+.main-discussion .search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-discussion input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.main-discussion .sort-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #26A69A;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.main-discussion .sort-button:hover {
+    background-color: #00796B;
+}
+
+.main-discussion .create-post-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #26A69A;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.main-discussion .create-post-button:hover {
+    background-color: #00796B;
+}
+
+.post {
+    background-color: #E0F2F1; /* Light teal background */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-left: 5px solid #26A69A; /* Teal border */
+}
+
+.post:hover {
+    background-color: #B2DFDB; /* Slightly darker on hover */
+}
+
+.post h3 {
+    margin: 0;
+    color: #004D40; /* Darker text for contrast */
+}
+
+.post p {
+    color: #004D40; /* Darker text for contrast */
+    margin-top: 5px;
+}

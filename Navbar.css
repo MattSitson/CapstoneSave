@@ -1,0 +1,43 @@
+nav {
+    background-color: #26A69A;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 50px; /* Aligns text vertically */
+}
+
+nav ul li:hover {
+    background-color: #00796b;
+}
+
+nav ul .logout-button {
+    margin-left: auto; /* Pushes the logout button to the right */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+}

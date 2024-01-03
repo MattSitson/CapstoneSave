@@ -1,0 +1,74 @@
+/* Tasks.css */
+.tasks-container {
+    max-width: 1000px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-container h1 {
+    color: #26A69A;
+    text-align: center;
+}
+
+.tasks-container .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tasks-container .search-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+}
+
+.tasks-container .search-container button {
+    width: 100px;
+    padding: 10px;
+    background-color: #26A69A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tasks-container .search-container button:hover {
+    background-color: #00796B;
+}
+
+.tasks-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tasks-container th, .tasks-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tasks-container th.description, .tasks-container td.description {
+    width: 30%; /* Adjust width as needed */
+}
+
+.tasks-container th.status, .tasks-container td.status {
+    width: 20%; /* Adjust width as needed */
+}
+
+.tasks-container th {
+    background-color: #26A69A;
+    color: white;
+}
+
+.tasks-container td {
+    padding: 10px;
+}
+
+.tasks-container tr:nth-child(even) {
+    background-color: #E0F2F1;
+}

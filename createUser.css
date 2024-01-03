@@ -1,0 +1,55 @@
+.form {
+  background-color: #fff; 
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form h1 {
+  text-align: center;
+  color: #26A69A; 
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-top: 1rem;
+  color: #26A69A; 
+}
+
+.form input[type="text"],
+.form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Maintains width when padding is applied */
+}
+
+.form button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #26A69A; /* Primary button color */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form button:hover {
+  background-color: #00796B; /* Darker shade for hover effect */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .form {
+      margin: 1rem;
+      padding: 1rem;
+  }
+}
